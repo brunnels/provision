@@ -2,6 +2,7 @@
   "drpcli.amd64.linux",
   "drpcli.amd64.windows",
   "drpcli.arm64.linux",
+  "drpcli.arm_v7.linux",
   "jq",
   "plugin_providers/"
 ]

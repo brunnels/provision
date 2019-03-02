@@ -397,7 +397,7 @@ case $MODE in
 
              # Are we in a build tree
              if [ -e server ] ; then
-                 if [ ! -e bin/linux/amd64/drpcli ] ; then
+                 if [ ! -e "$binpath/drpcli" ] ; then
                      echo "It appears that nothing has been built."
                      echo "Please run tools/build.sh and then rerun this command".
                      exit 1

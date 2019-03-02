@@ -25,6 +25,8 @@ func TestExtractAssets(t *testing.T) {
 		"files/jq",
 		"files/drpcli.amd64.linux",
 		"files/drpcli.amd64.windows",
+		"files/drpcli.arm64.linux",
+		"files/drpcli.arm_v7.linux",
 		"bootia32.efi",
 		"bootia64.efi",
 		"esxi.0",

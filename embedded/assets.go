@@ -67,6 +67,7 @@ func ExtractAssets(replaceRoot, fileRoot string) error {
 		// CLI things
 		"drpcli.amd64.linux":   "files",
 		"drpcli.arm64.linux":   "files",
+		"drpcli.arm_v7.linux": "files",
 		"drpcli.amd64.windows": "files",
 
 		// General ISO things
